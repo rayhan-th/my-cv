@@ -1,11 +1,33 @@
 ---
-title: About Me
+title: About
+description: Biography, and education
+keywords:
+ - About
+ - Biography
+ - Education
 ---
 
-## About Me
+# About 
 
-I am a Hydrologist and GIS Specialist currently completing my M.Sc. in Integrated Water Resources Management at TH Köln (Technische Hochschule Köln), Germany, with a current GPA of 1.7 after 90 ECTS. I am a DAAD scholar with hands-on experience in German water authorities and international research institutions.
+Rayhan Ahmed is a Hydrology and GIS Specialist currently completing M.Sc. in Integrated Water Resources Management at TH Köln (Technische Hochschule Köln), Germany. He is a DAAD scholar with hands-on experience in geospatial analysis and hydrological modelling.
 
-My expertise spans hydrological modelling (TALSIM-NG, HEC-HMS), rainfall-runoff analysis, GIS-based spatial analysis, and Python-based geodata processing. I have worked across Bangladesh and Germany with governmental agencies, universities, and international development organizations including FAO, the World Bank, and BWDB.
+---
 
-**Interested in:** Hydrological modelling · GIS & Remote Sensing · Flood Risk Analysis · Water Resources Management · Rainfall-Runoff Modelling · Reservoir Management · Environmental & Social Impact Assessment · Climate Adaptation
+## Education
+
+| Year | Degree | Institution | Dissertation/Thesis |
+|------|--------|-------------|---------------------|
+| 2026 | **M.Sc.** in Integrated Water Resources Management | TH Köln, Germany | *Hydrological modelling and reservoir operation* |
+| 2022 | **M.S.** in Disaster Science and Emergency Management | Patuakhali scienec and Technology University, Bangladesh | *Climate change adaptation and non-migration behaviour* |
+| 2019 | **B.Sc.** in Disaster Management |Patuakhali scienec and Technology University , Bangladesh | *Biocahr effect on Arsenic and Phosphate* |
+
+---
+
+## Appointments
+
+| Period | Position |
+|--------|----------|
+| 2025--present | Intern, Thüringer Fernwasserversorgung (AöR), Erfurt, Germany |
+| 2022--2023 | Research Consultant, Center for Environmental & Geographic Information Services (CEGIS), Bangladesh |
+| 2021--2021 | Research Assistant, Institute of Water and Flood Management (IWFM), BUET , Bangladesh |
+| 2021--2022 | Research Assistant, Department of Emergency Management, PSTU , Bangladesh |
