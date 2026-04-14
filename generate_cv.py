@@ -253,7 +253,7 @@ def gen_preamble():
     github: "rayhan-th",
     address: "Deutzer Ring 5, 50679 Köln, Germany,
     positions: (
-      "Hydrology & GIS Specialist",
+      "Hydrology and GIS Specialist",
       "M.Sc. Integrated Water Resources Management",
     ),
     custom: (
