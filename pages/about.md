@@ -19,7 +19,7 @@ Rayhan Ahmed is a Hydrology and GIS Specialist currently completing M.Sc. in Int
 |------|--------|-------------|---------------------|
 | 2026 | **M.Sc.** in Integrated Water Resources Management | TH Köln, Germany | *Hydrological modelling and reservoir operation* |
 | 2022 | **M.S.** in Disaster Science and Emergency Management | Patuakhali scienec and Technology University, Bangladesh | *Climate change adaptation and non-migration behaviour* |
-| 2019 | **B.Sc.** in Disaster Management |Patuakhali scienec and Technology University , Bangladesh | *Biocahr effect on Arsenic and Phosphate* |
+| 2019 | **B.Sc.** in Disaster Management |Patuakhali scienec and Technology University , Bangladesh | *Biochar effect on Arsenic and Phosphate* |
 
 ---
 
