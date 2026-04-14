@@ -1,7 +1,7 @@
 ---
 title: Rayhan Ahmed
-subtitle: Hydrologist & GIS Specialist | M.Sc. Integrated Water Resources Management
-description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist at TH Köln.
+subtitle: Hydrology & GIS Specialist | M.Sc. in Integrated Water Resources Management
+description: Personal website of Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln.
 ---
 
 ::::{grid} 1 1 2 2
@@ -15,17 +15,17 @@ description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist
 :::{grid-item}
 :columns: 12 12 8 8
 
-**Hydrologist & GIS Specialist**
+**Hydrology & GIS Specialist**
 
 [M.Sc. Integrated Water Resources Management](https://www.th-koeln.de), TH Köln, Germany
 
-📍 Köln, Germany &nbsp;|&nbsp; 📞 +49 178 6957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
+📍 Cologne, Germany &nbsp;|&nbsp; 📞 +491786957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
-**Interested in:** Hydrological Modelling · GIS & Remote Sensing · Flood Risk Analysis · Water Resources Management · Rainfall-Runoff Modelling · Python-based Geodata Processing · Reservoir Management · Environmental Assessment
+**Interested in:** Geographic Information Syestem (GIS)Hydrological Modelling · Early Warning System . Flood Risk Analysis · AI in GIS and Hydroinformatics . climate change . Water Resources Management · Disaster Risk Reduction
 
 [CV (PDF)](cv.pdf) |
 [LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) |
-[ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed) |
+[ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed-4?ev=hdr_xprf) |
 [GitHub](https://github.com/rayhan-th)
 
 :::
@@ -39,7 +39,7 @@ description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist
 
 :::{card} About Me 👤
 :link: pages/about
-Hydrologist & GIS Specialist based in Köln, Germany
+Hydrology & GIS Specialist based in Cologne, Germany
 :::
 
 :::{card} Education 🎓
@@ -64,7 +64,7 @@ QGIS · ArcGIS · TALSIM-NG · HEC-HMS · Python
 
 :::{card} Awards 🏆
 :link: pages/awards
-DAAD Scholarship · National Science Fellowship
+DAAD Scholarship · National Science and Technology Fellowship
 :::
 
 ::::
