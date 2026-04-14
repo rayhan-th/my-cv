@@ -1,8 +1,7 @@
 ---
-title: Jane Doe
-subtitle: Open-Source Software Engineer & Data Scientist
-description: Jane Doe, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
-# thumbnail: images/profile-thumbnail.webp
+title: Rayhan Ahmed
+subtitle: Hydrology & GIS Specialist | M.Sc. Integrated Water Resources Management
+description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln, specializing in hydrological modelling, GIS analysis, and water resources management.
 ---
 
 ::::{grid} 1 1 2 2
@@ -10,70 +9,26 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :::{grid-item}
 :columns: 12 12 4 4
 
-```{image} logo.png
-:alt: Jane Doe
-:width: 95%
-```
-
+![Rayhan Ahmed](pages/images/photo.png)
 :::
 
 :::{grid-item}
 :columns: 12 12 8 8
 
-**Software Engineer** | **Data Scientist**
+**Hydrologist & GIS Specialist**
 
-[Department of Computer Science](https://example.com/cs), Example University
+[M.Sc. Integrated Water Resources Management](https://www.th-koeln.de), TH Köln, Germany
 
-[123 Science Building](https://maps.google.com), Anytown, ST 12345
+📍 Köln, Germany &nbsp;|&nbsp; 📞 +49 178 6957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
-[jane.doe@example.com](mailto:jane.doe@example.com) | [example.com](https://example.com)
+**Research Interests:** Hydrological Modelling · GIS & Remote Sensing · Flood Risk Analysis · Water Resources Management · Rainfall-Runoff Modelling · Python-based Geodata Processing
 
-**Research Interests:** Data Science, Machine Learning, Open-Source Software Development, Cloud Computing
-
-[CV (PDF)](cv.pdf) |
-[Google Scholar](https://scholar.google.com) |
-[ORCID](https://orcid.org/0000-0000-0000-0000) |
-[LinkedIn](https://www.linkedin.com/in/username) |
-[GitHub](https://github.com/username) |
-[Twitter](https://twitter.com/username)
+[CV PDF (Hydrology)](cv.pdf) |
+[LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) |
+[ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed) |
+[GitHub](https://github.com/rayhan-th)
 
 :::
-::::
-
----
-
-## Featured Projects
-
-::::{grid} 2 2 4 4
-
-:::{card}
-:link: https://mystmd.org
-![mystmd](pages/images/myst.webp)
-+++
-**MyST**
-:::
-
-:::{card}
-:link: https://jupyterbook.org
-![jupyter-book](pages/images/jupyter-book.webp)
-+++
-**Jupyter Book**
-:::
-
-:::{card}
-:link: https://jupyter.org
-![jupyter](pages/images/jupyter.webp)
-+++
-**Jupyter**
-:::
-
-:::{card}
-:link: https://python.org
-![python](pages/images/python.webp)
-+++
-**Python**
-:::
-
 ::::
 
 ---
@@ -84,42 +39,32 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 
 :::{card} Publications 📚
 :link: pages/research
-10+ Refereed Publications
+3 Peer-reviewed Journal Articles + 1 Conference Paper
 :::
 
-:::{card} Software 💻
+:::{card} Experience 💼
+:link: pages/about
+5+ Years Research & Professional Experience
+:::
+
+:::{card} GIS Projects 🗺️
 :link: pages/software
-5+ Open-Source Projects
-:::
-
-:::{card} Teaching 🎓
-:link: pages/teaching
-5+ Courses Taught
-:::
-
-:::{card} Talks 🎤
-:link: pages/talks
-10+ Invited Talks
+15+ GIS-supported Development Projects at CEGIS
 :::
 
 :::{card} Awards 🏆
 :link: pages/awards
-5+ Awards & Honors
+DAAD Scholarship · National Science Fellowship
 :::
 
-:::{card} Community 🌍
-:link: pages/services
-Professional & institutional service
+:::{card} Education 🎓
+:link: pages/about
+3 Degrees incl. 2× Top of Class
 :::
 
-:::{card} Blog ✍️
-:link: pages/blog
-Thoughts on research, software, and teaching
-:::
-
-:::{card} News 📰
-:link: pages/news
-Latest updates and milestones
+:::{card} Skills 🛠️
+:link: pages/about
+QGIS · ArcGIS · TALSIM-NG · HEC-HMS · Python
 :::
 
 ::::
@@ -128,9 +73,10 @@ Latest updates and milestones
 
 ## Recent News
 
-- **2026-04-01** - Launched personal website with MyST Markdown
-- **2026-03-15** - Published new paper on machine learning
-- **2026-02-01** - Released version 2.0 of open-source project
-- **2026-01-10** - Received Best Paper Award at Conference 2026
+- **2026-03** – Internship reference letter received from Thüringer Fernwasserversorgung with highest commendation (*"vollsten Zufriedenheit"*)
+- **2026** – Master thesis ongoing at TFW Erfurt on hydrological assessment of reservoir catchments (Ziegenrück & Neuer Teich)
+- **2025** – Published in *Agricultural Systems* (Impact Factor journal) on climate-smart agriculture
+- **2025** – Published in *SAINS TANAH – Journal of Soil Science and Agroclimatology*
+- **2023** – Awarded DAAD Scholarship for M.Sc. at TH Köln, Germany
 
 [See all news →](pages/news)

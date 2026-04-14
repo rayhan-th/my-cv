@@ -1,22 +1,29 @@
 ---
 title: Contact
-description: Contact information for collaboration, speaking invitations, or questions.
 ---
 
-# Contact
+## Get in Touch
 
-Feel free to reach out for collaboration, speaking invitations, or questions about open-source software.
+I am open to collaborations, research opportunities, and professional discussions in the fields of hydrology, GIS, and water resources management.
 
-**Email:** [jane.doe@example.com](mailto:jane.doe@example.com)
+---
 
-**Phone:** +1-234-567-8901
+**Email:** [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
-**Office:** [123 Science Building](https://maps.google.com), Example University, Anytown, ST 12345
+**Phone:** +49 178 6957128
 
-## Connect
+**Address:** Deutzer Ring 5, 50679 Köln, Germany
 
-[LinkedIn](https://www.linkedin.com/in/username) |
-[Twitter](https://twitter.com/username) |
-[GitHub](https://github.com/username) |
-[Google Scholar](https://scholar.google.com) |
-[ORCID](https://orcid.org/0000-0000-0000-0000)
+---
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) — Professional network
+- [ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed) — Research and publications
+- [GitHub](https://github.com/rayhan-th) — Code and projects
+
+---
+
+## Current Status
+
+I am currently completing my **Master thesis** at Thüringer Fernwasserversorgung (TFW) in Erfurt, Germany (expected completion: 2026), and am available for discussions regarding future positions in hydrology, water resources management, or GIS analysis in Germany or internationally.

@@ -1,31 +1,38 @@
 ---
 title: News
-description: A running log of updates, releases, publications, and milestones, organized by year.
-keywords:
-  - News
-  - Updates
-  - Releases
-  - Milestones
 ---
 
-# News
+## 2026
 
-A running log of updates, releases, publications, and milestones, organized by year. The current year is expanded by default; click any previous year to expand it.
+- **March 2026** – Received internship reference letter from Thüringer Fernwasserversorgung with highest commendation (*"zur vollsten Zufriedenheit"*) from CEO Thomas Dirkes
+- **Nov 2025 – ongoing** – Master thesis commenced at TFW Erfurt on hydrological assessment of reservoir catchments in Thuringia
 
-:::{dropdown} 2026
-:open:
+## 2025
 
-- **2026-04-01** - Launched personal website with MyST Markdown
-- **2026-03-15** - Published new paper on machine learning in *Journal of Data Science*
-- **2026-02-01** - Released version 2.0 of project-alpha
-- **2026-01-10** - Received Best Paper Award at Conference 2026
+- **May–Oct 2025** – Internship at Thüringer Fernwasserversorgung (TFW), Erfurt – Technical Division, Reservoir Management (Hydrology)
+- **2025** – Published in *Agricultural Systems* (230, p. 104489): *"Prioritizing climate-smart agricultural technologies for coastal Bangladesh"*
+- **2025** – Published in *SAINS TANAH – Journal of Soil Science and Agroclimatology* (22(1), pp. 203–219)
 
-:::
+## 2023
 
-:::{dropdown} 2025
+- **Sept 2023** – Started M.Sc. in Integrated Water Resources Management at TH Köln, Germany
+- **2023** – Awarded DAAD Scholarship (2023–2025) for graduate studies in Germany
+- **Nov 2023** – Certified in UAV Data Collection and Processing (Practitioner's Training, CEGIS)
 
-- **2025-11-15** - Presented at International Data Science Conference
-- **2025-09-01** - Received NSF grant for data science infrastructure
-- **2025-06-20** - Workshop at PyCon 2025
+## 2022
 
-:::
+- **Oct 2022** – Joined Center for Environmental & Geographic Information Services (CEGIS), Dhaka as Research Consultant
+- **2022** – Completed M.Sc. in Disaster Science and Emergency Management at PSTU — **1st in cohort**, GPA 1.1
+
+## 2021
+
+- **Feb–June 2021** – Research Assistant at IWFM, BUET on IDRC-funded ADCF project
+- **Nov 2021** – Achieved IELTS C1 (Overall Band 7.0)
+- **2020** – Awarded National Science and Technology Fellowship, Bangladesh
+
+## 2019
+
+- **July 2019** – Joined Department of Emergency Management, PSTU as Research Assistant
+- **2019** – Completed B.Sc. in Disaster Management (Hons.) at PSTU — **2nd in cohort**, CGPA 3.834/4.0
+- **Dec 2019** – Presented at 4th Young Scientists Congress: *"Surface functionalized biochar reduces arsenic contamination from soil"*
+- **2018–2019** – Awarded Dean's Merit Scholarship for Academic Excellence, PSTU

@@ -1,80 +1,52 @@
 ---
-title: Research
-description: Research areas, publications, grants, and patents.
-keywords:
-  - Research
-  - Publications
-  - Grants
-  - Patents
+title: Research & Publications
 ---
 
-# Research
+## Peer-Reviewed Journal Articles
 
-Dr. Doe's research focuses on advancing open-source data science through machine learning and cloud computing.
+**[1]** Ahmed, M.R., Mia, S., Sattar, M.A., Masud, M.M., Alam, S.M., Akter, S., Mia, M.S. & Aktar, S. (2025).
+*Chemical modification of biochar's functional groups enhances phosphate and arsenite adsorption.*
+**SAINS TANAH – Journal of Soil Science and Agroclimatology**, 22(1), pp. 203–219.
 
-## Research Areas
+**[2]** Mia, S., Roja, N.T., Sattar, M.A., Ahmed, R. et al. (2025).
+*Prioritizing climate-smart agricultural technologies for coastal Bangladesh: A multicriteria assessment.*
+**Agricultural Systems**, 230, p. 104489.
 
-- Data Science
-- Machine Learning
-- Open-Source Software Development
-- Cloud Computing
+**[3]** Parvez, A., Islam, M.T., Islam, M., Haque, M.F. & Ahmed, M.R. (2018).
+*Environmental impact assessment of automatic brick manufacturing project at Lebukhali Dumki.*
+**Journal of Environmental Science and Natural Resources**, 11(1–2), pp. 87–95.
 
 ---
 
-## Patents
+## Conference Papers
 
-- J. Doe, J. Smith. "Method and system for automated data processing." U.S. Patent Application No. 12/345,678, filed January 2025.
-
----
-
-## Books
-
-- **J. Doe** (2026). *Data Science with Python*. Publisher Name. [https://example.com/book](https://example.com/book)
+**[4]** Ahmed, R., Mia, S. & Sattar, M.A. (2019).
+*Surface functionalized biochar reduces arsenic contamination from soil: A batch study.*
+4th Young Scientists Congress, December 2019.
 
 ---
 
-## Refereed Publications
+## Master Thesis *(ongoing)*
 
-**Published**: 10 papers | **Citations**: 500+ | *h*-index: 8
-
-:::{dropdown} 2026
-:open:
-
-**J. Doe**, J. Smith, A. Johnson (2026). "Deep learning for geospatial analysis." *Journal of Data Science*, 15(3), 123--145. [https://doi.org/10.1234/example1](https://doi.org/10.1234/example1)
-
-A. Johnson, **J. Doe** (2026). "Scalable cloud computing for large datasets." *IEEE Transactions on Big Data*, 8(2), 456--470. [https://doi.org/10.1234/example2](https://doi.org/10.1234/example2)
-
-:::
-
-:::{dropdown} 2025
-
-**J. Doe**, B. Williams (2025). "Open-source tools for reproducible research." *Nature Methods*, 22(1), 78--92. [https://doi.org/10.1234/example3](https://doi.org/10.1234/example3)
-
-C. Brown, **J. Doe**, D. Lee (2025). "Machine learning in environmental science." *Environmental Modelling & Software*, 150, 105--120. [https://doi.org/10.1234/example4](https://doi.org/10.1234/example4)
-
-:::
+**Hydrological Assessment of Reservoir Catchments in Thuringia**
+Technische Hochschule Köln | Supervisor: TFW Erfurt
+- Hydrological modelling with TALSIM-NG for catchments Ziegenrück/Plothenbach and Neuer Teich
+- Calibration and validation against J2000, LUTZ, and KOSTRA-REWANUS models
+- GIS-based catchment delineation, DEM processing, and land use analysis
+- Python automation of hydrological data workflows
 
 ---
 
-## Grants
+## Research Projects
 
-### Funded
+**ADCF Project** *(IWFM, BUET / IDRC, 2021)*
+"Evaluation of Adaptation Trials in GBM-Delta and its upscaling to Climate Financing"
+- Field data collection, data processing, and reporting
 
-:::{dropdown} As PI
-:open:
-
-**J. Doe** (PI). "Scalable Data Science Infrastructure." National Science Foundation (NSF). $500,000. 2024--2027.
-
-**J. Doe** (PI). "Open-Source Tools for Machine Learning." Department of Energy (DOE). $250,000. 2023--2025.
-
-:::
-
-:::{dropdown} As Co-PI
-
-J. Smith (PI), **J. Doe** (Co-PI). "Cloud Computing for Scientific Research." NSF. $750,000. 2024--2028.
-
-:::
-
-### Pending
-
-**J. Doe** (PI). "AI-Driven Data Analytics Platform." NSF. $600,000. 2026--2029. (Submitted March 2026)
+**CEGIS Development Projects** *(2022–2023)*
+Contributed to 15+ studies including:
+- ESIA for Water Resources Management, Polder Development, and River Basin Studies (BWDB)
+- Environmental & Social Consulting for JRECDP (World Bank)
+- CRVA for Fisheries and Agriculture Sector (FAO)
+- Feasibility and IEE studies for infrastructure projects (PGCB, TGTDPLC, DESCO)
+- Eco-Tourism Development Plan (Payra-Kuakata Comprehensive Plan)

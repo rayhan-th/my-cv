@@ -1,89 +1,68 @@
 ---
-title: Software
-description: Open-source software projects created and maintained by Jane Doe.
-keywords:
-  - Open-source Software
-  - Python
-  - Data Science
+title: GIS & Software Projects
 ---
 
-# Open-Source Software
+## Technical Tools & Skills
 
-Dr. Doe is the creator and maintainer of several open-source software packages for data science and machine learning.
+My work combines GIS, hydrological modelling, and Python scripting. Below are the key tools and projects I have worked with.
 
 ---
 
-## Featured Projects
+## Hydrological Modelling
 
-::::{grid} 2 2 4 4
+**TALSIM-NG** – Setup, calibration, and application of rainfall-runoff models for reservoir catchments in Thuringia (TFW Erfurt). Used for hydrological assessment procedures mandated by German water authorities.
 
-:::{card}
-:link: https://mystmd.org
-![mystmd](images/myst.webp)
-+++
-**MyST**
-:::
+**HEC-HMS** – Hydrological modelling for flood analysis and rainfall-runoff simulation.
 
-:::{card}
-:link: https://jupyterbook.org
-![jupyter-book](images/jupyter-book.webp)
-+++
-**Jupyter Book**
-:::
-
-:::{card}
-:link: https://jupyter.org
-![jupyter](images/jupyter.webp)
-+++
-**Jupyter**
-:::
-
-:::{card}
-:link: https://python.org
-![python](images/python.webp)
-+++
-**Python**
-:::
-
-::::
+**Model Comparison** – Validation and cross-comparison of TALSIM-NG results against J2000, LUTZ, and KOSTRA-REWANUS.
 
 ---
 
-## Python Packages
+## GIS & Remote Sensing
 
-::::{grid} 1 2 3 3
+**QGIS / ArcGIS Pro**
+- Catchment delineation and DEM-based terrain analysis
+- Land use planning and protection zone delineation
+- Spatial analysis of hydrological input data (soil hydrology, meteorology)
+- GIS mapping for environmental impact assessments
 
-:::{card} project-alpha
-:link: https://github.com/username/project-alpha
-A Python package for data analysis and visualization
-:::
+**UAV Data Collection & Processing** *(Certified – CEGIS, Nov 2023)*
+- Field data acquisition using unmanned aerial vehicles
+- Photogrammetric processing and analysis
 
-:::{card} project-beta
-:link: https://github.com/username/project-beta
-Machine learning utilities for scientific computing
-:::
-
-:::{card} project-gamma
-:link: https://github.com/username/project-gamma
-Cloud computing tools for large-scale data processing
-:::
-
-::::
+**Satellite Image Analysis**
+- Remote sensing for land cover classification
+- Environmental monitoring and change detection
 
 ---
 
-## Web Apps
+## Python & Scripting
 
-::::{grid} 1 2 3 3
+**Automated Hydrological Data Processing** *(TFW Erfurt, 2025–2026)*
+Python scripts developed to automate recurring hydrological evaluation tasks, reducing manual processing time significantly.
 
-:::{card} data-dashboard
-:link: https://github.com/username/data-dashboard
-Interactive data visualization dashboard
-:::
+**Libraries used:** GeoPandas · Rasterio · Shapely · NumPy · Pandas · Matplotlib · Jupyter Notebook
 
-:::{card} ml-explorer
-:link: https://github.com/username/ml-explorer
-Machine learning model exploration tool
-:::
+---
 
-::::
+## CEGIS Project Portfolio
+
+During my tenure at CEGIS (Ministry of Water Resources, Bangladesh), I contributed GIS and geospatial analysis to 15+ development projects:
+
+| Project | Client | Type |
+|---------|--------|------|
+| ESIA for Padma River Basin & Pabna Irrigation | BWDB | ESIA |
+| ESIA for Teesta River Dredging & Bank Protection | BWDB | ESIA |
+| ESIA for Water Resources Management – Polder 72 | BWDB | ESIA |
+| ESIA for Shahbazpur Channel Management Plan | BWDB | ESIA |
+| ESIA for Polder 73/1 (A+B) & 73/2, Noakhali | BWDB | ESIA |
+| Environmental & Social Consulting for JRECDP | World Bank | ESIA |
+| CRVA for Fisheries and Agriculture Sector | FAO | Assessment |
+| Payra-Kuakata Eco-Tourism Plan | CEGIS | Planning |
+| ESIA for Purbachol New Town Project | RAJUK | SEA |
+| UCP-Climate Change Study | CEGIS | Research |
+| IEE & EMP for DESCO Electrical Infrastructure | DESCO | IEE |
+| Feasibility Study – Gas Meter Installation | TGTDPLC | Feasibility |
+| Power Transmission Infrastructure Study | PGCB | IEE |
+| ECCCP-Flood Audit – PKSF | PKSF | Audit |
+| Baseline Study for SSWRDP Sub-projects | LGED | Baseline |

@@ -1,22 +1,37 @@
 ---
-title: Awards
-description: Awards and honors recognizing contributions to open-source software, research, and education.
-keywords:
-  - Awards
-  - Honors
-  - Recognition
+title: Awards & Scholarships
 ---
 
-# Awards & Honors
+## Scholarships
 
-A selection of awards and honors recognizing contributions to open-source software, research, and education.
+**DAAD Scholarship** *(2023–2025)*
+German Academic Exchange Service (DAAD), Germany
+- Awarded for M.Sc. studies in Integrated Water Resources Management at TH Köln
+- Competitive international scholarship for academic excellence
 
-| Year | Award |
-|------|-------|
-| 2026 | Outstanding Research Award, Example University |
-| 2025 | Best Paper Award, International Data Science Conference |
-| 2024 | Open Source Contributor Award, Open Source Foundation |
-| 2023 | Early Career Research Award, College of Sciences, Example University |
-| 2022 | Graduate Teaching Award, Department of Computer Science, Example University |
-| 2021 | NSF CAREER Award |
-| 2020 | Best Dissertation Award, Example University |
+**National Science and Technology Fellowship** *(2020)*
+Ministry of Science and Technology, Bangladesh
+- Awarded for outstanding academic achievement and research contribution
+
+**Dean's Merit Scholarship for Academic Excellence** *(2018–2019)*
+Patuakhali Science and Technology University, Bangladesh
+- Awarded for top academic performance during B.Sc. studies
+
+---
+
+## Academic Honours
+
+**1st Place in Cohort** – M.Sc. Disaster Science and Emergency Management, PSTU (2022)
+GPA: 1.1 (equivalent to Sehr gut / Distinction)
+
+**2nd Place in Cohort** – B.Sc. Disaster Management (Hons.), PSTU (2019)
+CGPA: 3.834 / 4.000
+
+---
+
+## Professional Recognition
+
+**"Zur vollsten Zufriedenheit"** *(March 2026)*
+Thüringer Fernwasserversorgung (TFW), Erfurt, Germany
+- Highest-grade reference letter issued by CEO Thomas Dirkes
+- Awarded upon completion of internship in hydrological reservoir management
