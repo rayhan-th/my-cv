@@ -245,22 +245,20 @@ def gen_preamble():
 
 #show: resume.with(
   author: (
-    firstname: "Jane",
-    lastname: "Doe",
-    email: "jane.doe@example.com",
-    phone: "(+1) 234-567-8901",
-    homepage: "https://example.com",
-    github: "username",
-    address: "123 Science Building, Example University, Anytown, ST 12345",
+    firstname: "Rayhan",
+    lastname: "Ahmed",
+    email: "rayhan.thkoeln@gmail.com",
+    phone: "(+49) 1786957128",
+    homepage: "https://rayhan-th.github.io/my-cv",
+    github: "rayhan-th",
+    address: "Deutzer Ring 5, 50679 Köln, Germany,
     positions: (
-      "Assistant Professor",
-      "Data Scientist",
+      "Hydrology & GIS Specialist",
+      "M.Sc. Integrated Water Resources Management",
     ),
     custom: (
-      (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Jane Doe", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Jane Doe", icon: "google-scholar", link: "https://scholar.google.com"),
-      (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
+      (text: "Rayhan Ahmed", icon: "linkedin", link: "https://www.linkedin.com/in/rayhan95ahmed"),
+      (text: "Rayhan Ahmed", icon: "researchgate", link: "https://www.researchgate.net/profile/Rayhan-Ahmed"),
     ),
   ),
   profile-picture: none,
@@ -276,7 +274,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Rayhan Ahmed - CV")"""
 
 
 def gen_education(about):

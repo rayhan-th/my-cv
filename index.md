@@ -1,7 +1,7 @@
 ---
 title: Rayhan Ahmed
-subtitle: Hydrology & GIS Specialist | M.Sc. Integrated Water Resources Management
-description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln, specializing in hydrological modelling, GIS analysis, and water resources management.
+subtitle: Hydrologist & GIS Specialist | M.Sc. Integrated Water Resources Management
+description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist at TH Köln.
 ---
 
 ::::{grid} 1 1 2 2
@@ -9,7 +9,7 @@ description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist a
 :::{grid-item}
 :columns: 12 12 4 4
 
-![Rayhan Ahmed](pages/images/photo.png)
+![Rayhan Ahmed](pages/images/photo.PNG)
 :::
 
 :::{grid-item}
@@ -21,9 +21,9 @@ description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist a
 
 📍 Köln, Germany &nbsp;|&nbsp; 📞 +49 178 6957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
-**Research Interests:** Hydrological Modelling · GIS & Remote Sensing · Flood Risk Analysis · Water Resources Management · Rainfall-Runoff Modelling · Python-based Geodata Processing
+**Interested in:** Hydrological Modelling · GIS & Remote Sensing · Flood Risk Analysis · Water Resources Management · Rainfall-Runoff Modelling · Python-based Geodata Processing · Reservoir Management · Environmental Assessment
 
-[CV PDF (Hydrology)](cv.pdf) |
+[CV (PDF)](cv.pdf) |
 [LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) |
 [ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed) |
 [GitHub](https://github.com/rayhan-th)
@@ -37,34 +37,34 @@ description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist a
 
 ::::{grid} 2 2 3 4
 
-:::{card} Publications 📚
-:link: pages/research
-3 Peer-reviewed Journal Articles + 1 Conference Paper
+:::{card} About Me 👤
+:link: pages/about
+Hydrologist & GIS Specialist based in Köln, Germany
+:::
+
+:::{card} Education 🎓
+:link: pages/education
+3 Degrees · 2× Top of Class · DAAD Scholar
 :::
 
 :::{card} Experience 💼
-:link: pages/about
-5+ Years Research & Professional Experience
+:link: pages/experience
+5+ Years · TFW Erfurt · CEGIS · IWFM · PSTU
 :::
 
-:::{card} GIS Projects 🗺️
-:link: pages/software
-15+ GIS-supported Development Projects at CEGIS
+:::{card} Skills 🛠️
+:link: pages/skills
+QGIS · ArcGIS · TALSIM-NG · HEC-HMS · Python
+:::
+
+:::{card} Research 📚
+:link: pages/research
+3 Peer-reviewed Publications · 1 Conference Paper
 :::
 
 :::{card} Awards 🏆
 :link: pages/awards
 DAAD Scholarship · National Science Fellowship
-:::
-
-:::{card} Education 🎓
-:link: pages/about
-3 Degrees incl. 2× Top of Class
-:::
-
-:::{card} Skills 🛠️
-:link: pages/about
-QGIS · ArcGIS · TALSIM-NG · HEC-HMS · Python
 :::
 
 ::::
@@ -73,10 +73,9 @@ QGIS · ArcGIS · TALSIM-NG · HEC-HMS · Python
 
 ## Recent News
 
-- **2026-03** – Internship reference letter received from Thüringer Fernwasserversorgung with highest commendation (*"vollsten Zufriedenheit"*)
-- **2026** – Master thesis ongoing at TFW Erfurt on hydrological assessment of reservoir catchments (Ziegenrück & Neuer Teich)
-- **2025** – Published in *Agricultural Systems* (Impact Factor journal) on climate-smart agriculture
-- **2025** – Published in *SAINS TANAH – Journal of Soil Science and Agroclimatology*
-- **2023** – Awarded DAAD Scholarship for M.Sc. at TH Köln, Germany
+- **March 2026** – Received highest commendation reference from TFW Erfurt (*"zur vollsten Zufriedenheit"*)
+- **Nov 2025** – Master thesis started at TFW Erfurt on reservoir catchment hydrology
+- **2025** – Published in *Agricultural Systems* and *SAINS TANAH* journals
+- **2023** – Awarded DAAD Scholarship for M.Sc. at TH Köln
 
 [See all news →](pages/news)

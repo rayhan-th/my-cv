@@ -35,8 +35,10 @@ project:
   toc:
     - file: index.md
     - file: pages/about.md
+    - file: pages/education.md
+    - file: pages/experience.md
+    - file: pages/skills.md
     - file: pages/research.md
-    - file: pages/software.md
     - file: pages/awards.md
     - file: pages/contact.md
     - file: pages/news.md
