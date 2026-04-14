@@ -9,7 +9,7 @@ description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist
 :::{grid-item}
 :columns: 12 12 4 4
 
-![Rayhan Ahmed](pages/images/photo.PNG)
+![Rayhan Ahmed](pages/images/photo.png)
 :::
 
 :::{grid-item}
