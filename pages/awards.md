@@ -10,25 +10,13 @@ Awarded for M.Sc. studies in Integrated Water Resources Management at TH Köln. 
 
 ---
 
-### 1st Place in Cohort *(2022)*
-**M.Sc. Disaster Science and Emergency Management, PSTU, Bangladesh**
-GPA: 1.1 — highest in graduating class.
-
----
-
 ### National Science and Technology Fellowship *(2020)*
 **Ministry of Science and Technology, Bangladesh**
 Awarded for outstanding academic achievement and research contribution.
 
 ---
 
-### 2nd Place in Cohort *(2019)*
-**B.Sc. Disaster Management (Hons.), PSTU, Bangladesh**
-CGPA: 3.834 / 4.000
-
----
-
-### Dean's Merit Scholarship *(2018–2019)*
+### Dean's Merit Scholarship *(2018 & 2019)*
 **Patuakhali Science and Technology University, Bangladesh**
 Awarded for top academic performance during B.Sc. studies.
 

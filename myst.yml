@@ -1,7 +1,7 @@
 version: 1
 project:
   title: Rayhan Ahmed
-  description: Personal website of Md Rayhan Ahmed, Hydrologist and GIS Specialist, M.Sc. Integrated Water Resources Management, TH Köln.
+  description: Personal website of Md Rayhan Ahmed, Hydrology and GIS Specialist, M.Sc. Integrated Water Resources Management, TH Köln.
   authors:
     - name: Rayhan Ahmed
       email: rayhan.thkoeln@gmail.com
@@ -35,10 +35,8 @@ project:
   toc:
     - file: index.md
     - file: pages/about.md
-    - file: pages/education.md
-    - file: pages/experience.md
-    - file: pages/skills.md
     - file: pages/research.md
+    - file: pages/software.md
     - file: pages/awards.md
     - file: pages/contact.md
     - file: pages/news.md
