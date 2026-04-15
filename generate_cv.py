@@ -249,6 +249,7 @@ def gen_preamble():
     email: "rayhan.thkoeln@gmail.com",
     phone: "(+49) 1786957128",
     github: "rayhan-th",
+    homepage: "https://rayhan-th.github.io/my-cv",
     address: "Deutzer Ring 5, 50679, Cologne, Germany",
     positions: (
       "Hydrologist",
@@ -273,7 +274,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Rayhan Ahmed - CV")"""
 
 
 def gen_education(about):
@@ -334,7 +335,7 @@ def gen_awards(awards_text):
 
 def gen_publications(research):
     """Generate Refereed Publications section from research.md."""
-    section = extract_section(research, "## Refereed Publications")
+    section = extract_section(research, "## Publications")
     if not section:
         return ""
 
@@ -355,7 +356,60 @@ def gen_publications(research):
 
     return "\n".join(lines)
 
+def gen_research_areas(research):
+    section = extract_section(research, "## Research Areas")
+    if not section:
+        return ""
+    bullets = parse_bullets(section)
+    if not bullets:
+        return ""
+    items = tuple(f'"{b}"' for b in bullets)
+    return (
+        "= Research Areas\n\n"
+        "#resume-skill-item(\n"
+        '  "Research Focus",\n'
+        f"  ({', '.join(items)}),\n"
+        ")"
+    )
 
+
+def gen_skills(skills):
+    lines = ["= Technical Skills\n"]
+    subsections = find_subsections(skills)
+    for title, content in subsections:
+        if title == "Languages":
+            continue
+        rows = parse_table(content)
+        if not rows:
+            continue
+        skill_vals = []
+        for row in rows:
+            tool = row.get("Tool / Skill", row.get("Tool", ""))
+            if tool:
+                skill_vals.append(f'"{escape_typst(tool)}"')
+        if skill_vals:
+            lines.append(
+                f"#resume-skill-item(\n"
+                f'  "{escape_typst(title)}",\n'
+                f"  ({', '.join(skill_vals)}),\n"
+                f")"
+            )
+    return "\n\n".join(lines)
+
+
+def gen_languages(skills):
+    section = extract_section(skills, "### Languages")
+    rows = parse_table(section)
+    if not rows:
+        return ""
+    lines = ["= Languages\n"]
+    items = []
+    for row in rows:
+        lang = escape_typst(row.get("Language", ""))
+        level = escape_typst(row.get("Level", ""))
+        items.append(f"  - *{lang}*: {level}")
+    lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
+    return "\n\n".join(lines)
 
 # ============================================================================
 # Main
