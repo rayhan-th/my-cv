@@ -1,5 +1,7 @@
 ## Education
 
+---
+
 #### M.Sc. in Integrated Water Resources Management *(Sept 2023 – ongoing)*
 **Technische Hochschule Köln | Köln, Germany**
 
@@ -18,7 +20,6 @@
 ***Thesis:***
 
 **Abstract:**
-
 
 ---
 
