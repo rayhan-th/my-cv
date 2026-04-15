@@ -17,8 +17,8 @@ description: Personal portfolio website of Rayhan Ahmed, Hydrology and GIS Speci
 
 
 
-**M.Sc. Integrated Water Resources Management**
-[TH Köln](https://www.th-koeln.de)
+**M.Sc. Integrated Water Resources Management**,
+[TH Köln](https://www.th-koeln.de/studium/integrated-water-resources-management-master_6996.php)
 
 📍Cologne, Germany &nbsp;|&nbsp;📞 +491786957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
