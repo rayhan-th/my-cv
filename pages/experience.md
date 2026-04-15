@@ -6,7 +6,6 @@ keywords:
  - Task
 ---
 
-## Professional Experience
 
 ### Intern & Master Thesis Student *(May 2025 – ongoing)*
 **Thüringer Fernwasserversorgung (TFW) | Erfurt, Germany**
