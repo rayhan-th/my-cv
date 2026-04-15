@@ -1,5 +1,9 @@
 ---
-title: Professional Experience
+title: Professional Experinces
+description: Services
+keywords:
+ - Reference
+ - Task
 ---
 
 ## Professional Experience
@@ -29,6 +33,7 @@ title: Professional Experience
 - Stakeholder consultations: Focus Group Discussions (FGDs), Key Informant Interviews (KIIs), Stakeholder Consultation Meetings (SCMs)
 - Technical report writing and documentation for international clients
 
+> **Reference:** *"Experience Certificate"* - issued by the Director (Admin),CEGIS (September 2024)
 ---
 
 ### Research Assistant *(Feb 2021 – June 2021)*
@@ -36,6 +41,7 @@ title: Professional Experience
 
 - Field data collection, data processing, and reporting under the IDRC-funded project *"Evaluation of Adaptation Trials in GBM-Delta (ADCF)"*
 
+> **Reference:** *"Experience Certificate"* - issued by Anisul Haque, IWFM, BUET (December 2021)
 ---
 
 ### Research Assistant *(July 2019 – Oct 2022)*
@@ -43,3 +49,5 @@ title: Professional Experience
 
 - Research support in disaster risk management, water resources, and climate adaptation
 - GIS and remote sensing applications in flood risk, climate adaptation, and disaster management research
+
+> **Reference:** *"Experience Certificate"* - issued by the Chairman Dept. of ERM, PSTU (October 2022)
