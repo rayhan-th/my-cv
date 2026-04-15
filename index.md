@@ -24,7 +24,6 @@ description: Portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at 
 
 **Interested in:** Geographic Information Syestem (GIS) . Hydrological Modelling · Early Warning System . Flood Risk Analysis · AI in GIS and Hydroinformatics . Nature-Based Solution . Water Resources Management · Climate Change and Disaster Risk Reduction
 
-[CV (PDF)](cv.pdf) |
 [LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) |
 [ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed-4?ev=hdr_xprf) |
 [GitHub](https://github.com/rayhan-th)
