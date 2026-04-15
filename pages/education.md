@@ -1,5 +1,10 @@
-## Education
-
+---
+title: Education
+description: Details on education
+keywords:
+ - GPA
+ - Module
+ - Thesis
 ---
 
 #### M.Sc. in Integrated Water Resources Management *(Sept 2023 – ongoing)*
