@@ -8,6 +8,7 @@ generates a complete Typst CV file using the modern-cv package for styling.
 Usage: python generate_cv.py
 Output: cv.typ (compile with: typst compile cv.typ cv.pdf --font-path ./fonts)
 """
+
 import re
 from pathlib import Path
 
@@ -176,6 +177,24 @@ def find_subsections(text):
     return results
 
 
+def parse_cards(text):
+    """Parse :::{card} blocks into list of (name, link, description)."""
+    results = []
+    for m in re.finditer(
+        r":::\{card\}[ \t]+([^\n]+?)\n:link:\s*(.+?)\n(.*?)\n:::(?![:\{])",
+        text,
+        re.DOTALL,
+    ):
+        name = m.group(1).strip()
+        link = m.group(2).strip()
+        desc = m.group(3).strip()
+        desc = re.sub(r"```\{image\}.*?```", "", desc, flags=re.DOTALL)
+        desc = re.sub(r"\n+", " ", desc).strip()
+        if name:
+            results.append((name, link, desc))
+    return results
+
+
 def table_to_items(text):
     """Convert markdown table rows to Typst resume-item bullet list."""
     rows = parse_table(text)
@@ -191,13 +210,32 @@ def table_to_items(text):
     return "#resume-item[\n" + "\n".join(items) + "\n]" if items else ""
 
 
+def content_with_table(text):
+    """Convert text with optional intro paragraph and table to Typst."""
+    table_match = re.search(r"^\|", text, re.MULTILINE)
+    parts = []
+    if table_match:
+        before = text[: table_match.start()].strip()
+        if before:
+            parts.append(escape_typst(before))
+        result = table_to_items(text[table_match.start() :])
+        if result:
+            parts.append(result)
+    elif text.strip():
+        parts.append(escape_typst(text.strip()))
+    return "\n\n".join(parts)
+
+
 # ============================================================================
 # Section generators
 # ============================================================================
 
 
 def gen_preamble():
-    """Generate Typst preamble with modern-cv import and author config."""
+    """Generate Typst preamble with modern-cv import and author config.
+
+    TODO: Update author information below with your own details.
+    """
     return """#import "@preview/modern-cv:0.9.0": *
 
 // Use Font Awesome 6 icons and replace "Résumé" with "CV" in footer
@@ -209,17 +247,17 @@ def gen_preamble():
     firstname: "Rayhan",
     lastname: "Ahmed",
     email: "rayhan.thkoeln@gmail.com",
-    phone: "(+49) 178-6957128",
-    homepage: "https://rayhan-th.github.io/my-cv",
+    phone: "(+49) 1786957128",
     github: "rayhan-th",
-    address: "Deutzer Ring 5, 50679 Cologne, Germany",
+    address: "Deutzer Ring 5, 50679, Cologne, Germany",
     positions: (
       "Hydrologist",
       "GIS Specialist",
     ),
     custom: (
-      (text: "LinkedIn", icon: "linkedin", link: "https://linkedin.com/in/rayhan95ahmed"),
-      (text: "ResearchGate", icon: "researchgate", link: "https://researchgate.net/profile/Rayhan-Ahmed-4"),
+      (text: "Rayhan Ahmed", icon: "linkedin", link: "https://www.linkedin.com/in/rayhan95ahmed"),
+      (text: "Rayhan Ahmed", icon: "research-gate", link: "https://www.researchgate.net/profile/Rayhan-Ahmed-4?ev=hdr_xprf"),
+      (text: "0000-0000-0000-0000", icon: "github", link: "https://github.com/rayhan-th"),
     ),
   ),
   profile-picture: none,
@@ -235,11 +273,11 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Rayhan Ahmed - CV")"""
+#set document(title: "Jane Doe - CV")"""
 
 
 def gen_education(about):
-    """Generate Education section from pages/about.md."""
+    """Generate Education section from about.md."""
     section = extract_section(about, "## Education")
     rows = parse_table(section)
     if not rows:
@@ -261,96 +299,41 @@ def gen_education(about):
     return "\n\n".join(lines)
 
 
-def gen_experience(experience):
-    """Generate Professional Experience section from pages/experience.md."""
-    lines = ["= Professional Experience\n"]
-
-    # Parse ### headings as job entries
-    entries = re.split(r"^### ", experience, flags=re.MULTILINE)
-    for entry in entries[1:]:
-        entry_lines = entry.strip().split("\n")
-        title_line = entry_lines[0].strip()
-
-        # Extract date from title line e.g. "Job Title *(date)*"
-        date_match = re.search(r"\*\((.+?)\)\*", title_line)
-        date = date_match.group(1) if date_match else ""
-        title = re.sub(r"\s*\*\(.+?\)\*", "", title_line).strip()
-
-        # Extract organisation (bold line after title)
-        org = ""
-        description = ""
-        bullets = []
-        for line in entry_lines[1:]:
-            line = line.strip()
-            if line.startswith("**") and not org:
-                org = strip_markdown(line)
-            elif line.startswith("- "):
-                bullets.append(line[2:].strip())
-            elif line.startswith("> "):
-                bullets.append(line[2:].strip())
-
-        lines.append(
-            f"#resume-entry(\n"
-            f"  title: [{escape_typst(title)}],\n"
-            f"  location: [{escape_typst(org)}],\n"
-            f"  date: [{escape_typst(date)}],\n"
-            f"  description: [],\n"
-            f")"
-        )
-        if bullets:
-            items = [f"  - {escape_typst(b)}" for b in bullets if b]
-            lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
-
+def gen_appointments(about):
+    """Generate Academic Appointments section from about.md."""
+    section = extract_section(about, "## Appointments")
+    rows = parse_table(section)
+    if not rows:
+        return ""
+    lines = ["= Academic Appointments\n"]
+    items = []
+    for row in rows:
+        period = escape_typst(row.get("Period", ""))
+        position = escape_typst(row.get("Position", ""))
+        items.append(f"  - {period}: {position}")
+    lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
     return "\n\n".join(lines)
 
 
-def gen_skills(skills):
-    """Generate Technical Skills section from pages/skills.md."""
-    lines = ["= Technical Skills\n"]
 
-    # Find all tables with their preceding ### heading
-    subsections = find_subsections(skills)
-    for title, content in subsections:
-        rows = parse_table(content)
-        if not rows:
-            continue
-        # Collect all values from Tool/Skill column
-        skill_vals = []
-        for row in rows:
-            tool = row.get("Tool / Skill", row.get("Tool", row.get("Language", "")))
-            if tool:
-                skill_vals.append(f'"{escape_typst(tool)}"')
-        if skill_vals:
-            lines.append(
-                f"#resume-skill-item(\n"
-                f'  "{escape_typst(title)}",\n'
-                f"  ({', '.join(skill_vals)}),\n"
-                f")"
-            )
-
+def gen_awards(awards_text):
+    """Generate Awards & Honors section from awards.md."""
+    rows = parse_table(awards_text)
+    if not rows:
+        return ""
+    lines = ["= Awards & Honors\n"]
+    items = []
+    for row in rows:
+        year = strip_markdown(row.get("Year", ""))
+        award = escape_typst(row.get("Award", ""))
+        items.append(f"  - {year}: {award}")
+    lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
     return "\n\n".join(lines)
 
-
-def gen_research_areas(research):
-    """Generate Research Areas section from pages/research.md."""
-    section = extract_section(research, "## Research Areas")
-    if not section:
-        return ""
-    bullets = parse_bullets(section)
-    if not bullets:
-        return ""
-    items = tuple(f'"{b}"' for b in bullets)
-    return (
-        "= Research Areas\n\n"
-        "#resume-skill-item(\n"
-        '  "Research Focus",\n'
-        f"  ({', '.join(items)}),\n"
-        ")"
-    )
 
 
 def gen_publications(research):
-    """Generate Refereed Publications section from pages/research.md."""
+    """Generate Refereed Publications section from research.md."""
     section = extract_section(research, "## Refereed Publications")
     if not section:
         return ""
@@ -370,105 +353,8 @@ def gen_publications(research):
             lines.append(f"\n== {label}\n")
             lines.append("#resume-item[\n" + "\n\n".join(items) + "\n]")
 
-    # Conference paper
-    conf = extract_section(research, "## Conference Papers")
-    if conf:
-        bullets = parse_bullets(conf)
-        if bullets:
-            lines.append("\n== Conference Papers\n")
-            items = [f"  - {escape_typst(b)}" for b in bullets]
-            lines.append("#resume-item[\n" + "\n\n".join(items) + "\n]")
-
-    # Master thesis
-    thesis = extract_section(research, "## Master Thesis")
-    if not thesis:
-        thesis = extract_section(research, "## Master Thesis *(ongoing)*")
-    if thesis:
-        lines.append("\n== Master Thesis (ongoing)\n")
-        lines.append(f"#resume-item[\n  - {escape_typst(thesis[:300])}\n]")
-
     return "\n".join(lines)
 
-
-def gen_awards(awards_text):
-    """Generate Awards & Scholarships section from pages/awards.md."""
-    lines = ["= Awards and Scholarships\n"]
-    items = []
-
-    # Try table format first
-    rows = parse_table(awards_text)
-    if rows:
-        for row in rows:
-            year = strip_markdown(row.get("Year", ""))
-            award = escape_typst(row.get("Award", ""))
-            items.append(f"  - {year}: {award}")
-    else:
-        # Parse ### heading format
-        subsections = find_subsections(awards_text)
-        for title, content in subsections:
-            # Extract year from title e.g. "DAAD Scholarship *(2023–2025)*"
-            date_match = re.search(r"\*\((.+?)\)\*", title)
-            date = date_match.group(1) if date_match else ""
-            clean_title = re.sub(r"\s*\*\(.+?\)\*", "", title).strip()
-            # Get institution from first line of content
-            first_line = content.split("\n")[0].strip() if content else ""
-            institution = strip_markdown(first_line)
-            if date:
-                items.append(f"  - *{date}*: {escape_typst(clean_title)} -- {escape_typst(institution)}")
-            else:
-                items.append(f"  - {escape_typst(clean_title)} -- {escape_typst(institution)}")
-
-    if items:
-        lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
-    return "\n\n".join(lines)
-
-
-def gen_languages(about):
-    """Generate Languages section from pages/about.md."""
-    section = extract_section(about, "## Languages")
-    rows = parse_table(section)
-    if not rows:
-        return ""
-    lines = ["= Languages\n"]
-    items = []
-    for row in rows:
-        lang = escape_typst(row.get("Language", ""))
-        level = escape_typst(row.get("Level", ""))
-        items.append(f"  - *{lang}*: {level}")
-    lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
-    return "\n\n".join(lines)
-
-
-def gen_teaching(teaching):
-    """Generate Training & Certifications section from pages/teaching.md."""
-    lines = ["= Training and Certifications"]
-    online = extract_section(teaching, "## Self-Paced Online Courses")
-    if online:
-        rows = parse_table(online)
-        if rows:
-            items = []
-            for row in rows:
-                course = escape_typst(row.get("Course", ""))
-                title = escape_typst(row.get("Title", ""))
-                website = escape_typst(row.get("Website", ""))
-                entry = f"{course}: {title}"
-                if website:
-                    entry += f" ({website})"
-                items.append(f"  - {entry}")
-            lines.append("\n#resume-item[\n" + "\n".join(items) + "\n]")
-    return "\n".join(lines)
-
-
-def gen_services(services):
-    """Generate Professional Services section from pages/services.md."""
-    parts = []
-    prof = extract_section(services, "## Professional Services")
-    if prof:
-        parts.append("= Professional Services\n")
-        result = table_to_items(prof)
-        if result:
-            parts.append(result)
-    return "\n\n".join(p for p in parts if p)
 
 
 # ============================================================================
@@ -483,24 +369,18 @@ def main():
 
     about = read_file(pages, "about.md")
     research = read_file(pages, "research.md")
-    skills = read_file(pages, "skills.md")
-    experience = read_file(pages, "experience.md")
-    teaching = read_file(pages, "teaching.md")
-    talks = read_file(pages, "talks.md")
     awards = read_file(pages, "awards.md")
-    services = read_file(pages, "services.md")
+    skills = read_file(pages, "skills.md")
 
     sections = [
         gen_preamble(),
         gen_education(about),
-        gen_experience(experience),
-        gen_skills(skills),
+        gen_appointments(about),
         gen_research_areas(research),
-        gen_publications(research),
         gen_awards(awards),
-        gen_languages(about),
-        gen_teaching(teaching),
-        gen_services(services),
+        gen_skills(skills),
+        gen_publications(research),
+        gen_languages(skills)
     ]
 
     output = "\n\n".join(s for s in sections if s)
