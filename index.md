@@ -1,7 +1,7 @@
 ---
 title: Rayhan Ahmed
 subtitle: Hydrology & GIS Specialist | M.Sc. 
-description: Personal portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln.
+description: Portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln.
 ---
 
 ::::{grid} 1 1 2 2
