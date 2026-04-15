@@ -33,3 +33,10 @@ Rayhan Ahmed is a Hydrology and GIS Specialist currently completing M.Sc. in Int
 | 2021--2022 | Research Assistant, Department of Emergency Management, PSTU , Bangladesh |
 
 ---
+
+## Membership
+
+| Period | Role |
+|--------|------|
+| 2023--present | Junge DWA, Deutsche Vereinigung für Wasserwirtschaft, Abwasser und Abfall e. V.-DWA |
+| 2026--2027 | Mentee, DVGW-Mentoring-Programm 2026/2027 |
