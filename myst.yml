@@ -47,7 +47,7 @@ site:
   options:
     logo: logo2.png
     logo_dark: logo2.png
-    favicon: fav1.ico
+    favicon: fav3.ico
     style: custom.css
     folders: true
   template: book-theme
