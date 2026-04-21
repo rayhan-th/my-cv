@@ -4,7 +4,7 @@ title: Contact
 
 ## Get in Touch
 
-I am open to collaborations, research opportunities, and professional discussions in the fields of hydrology, GIS, and water resources management.
+I am open to collaborations, research opportunities, and professions in the fields of hydrology, GIS, Climate change, and Water resources management.
 
 ---
 
@@ -26,4 +26,4 @@ I am open to collaborations, research opportunities, and professional discussion
 
 ## Current Status
 
-I am currently completing my **Master thesis** at Thüringer Fernwasserversorgung (TFW) in Erfurt, Germany (expected completion: 2026), and am available for discussions regarding future positions in hydrology, water resources management, or GIS analysis in Germany or internationally.
+I am currently completing my **Master thesis** at Thüringer Fernwasserversorgung (TFW) in Erfurt, Germany (expected completion:June, 2026), and am available for discussions regarding future positions in hydrology, water resources management, or GIS analysis in Germany or internationally.
