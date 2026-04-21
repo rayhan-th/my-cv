@@ -10,7 +10,7 @@ keywords:
 #### M.Sc. in Integrated Water Resources Management *(Sept 2023 – ongoing)*
 **Technische Hochschule Köln | Köln, Germany**
 
-- GPA: 1.6 (after 90 ECTS) | Master thesis ongoing
+- GPA: 1.7 (after 90 ECTS) | Master thesis ongoing
 - DAAD Scholarship recipient 2023–2025
 - Key modules: GIS & Remote Sensing · Flood Management · Water System Analysis · Water Resources Management · Hydraulic Infrastructure . Project Management · Environmental Monitoring . Urban Water Management
 
@@ -22,9 +22,10 @@ keywords:
 - GPA: 3.98 / 4.00 | **With distinction**
 - Focus: Research Methodology · GIS & Remote Sensing . Climate Change Adaptation
 
-***Thesis:***
+***Thesis: Exploring the Role of Climate Change Adaptation Practices in People’s (Non)-Migration Decision: A Case from Coastal Area of Bangladesh***
 
 **Abstract:**
+Despite confronting severe climatic risks, many people prefer to remain in climate hazard-prone areas rather than migrate. Environmental non-migration behavior, however, has gained relatively little research attention in the field of migration processes. This study aims to unveil the determinants motivating voluntary environmental non-migration decisions in coastal Bangladesh, an area highly exposed to flooding, coastal erosion, salinity and cyclone. Applying a Probability Proportional to Size (PPS) method follows cluster sampling, we selected 400 household respondents for a questionnaire survey from Buri Goalini Union of Satkhira. Applying a mixed method (i.e., both quantitative and qualitative) approach, major empirical results of this study suggest that even though all respondents lived in a similar situation in terms of climatic hazard and exposure, 60.5% of the respondents reported themselves as voluntary non-migrants. Furthermore, these non-migrants enjoyed higher socioeconomic and socio psychological advantages and availed more local support from different government and non-government organizations than involuntary non-migrants. Again, adaptation to agriculture, fisheries, lives tock, and alternative livelihood appeared to build their higher degree of aspiration compared to involuntary non-migrants. All these features lead to a favorable environment that ultimately drove the respondents to become voluntary non-migrants.
 
 ---
 
