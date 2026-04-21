@@ -7,16 +7,17 @@ keywords:
 ---
 
 
-### Intern & Master Thesis Student *(May 2025 – ongoing)*
+### Intern & Master Thesis Student *(May 2025 – April 2026)*
 **Thüringer Fernwasserversorgung (TFW) | Erfurt, Germany**
 *Technical Division | Reservoir Management (Hydrology)*
 
-- Introduction and independent application of the hydrological assessment procedure for reservoirs in Thuringia
-- Setup, calibration, and application of hydrological models with TALSIM-NG for catchments Ziegenrück/Plothenbach and Neuer Teich
-- Comparison and validation of simulation results across TALSIM-NG, J2000, LUTZ, and KOSTRA-REWANUS
-- GIS analysis and DEM processing for catchment delineation and land use planning
-- Python scripts for automated hydrological data processing and reporting
-- Participation in quarterly meetings, site visits, and hydrometry measurements
+- Introduced and independently applied the hydrological assessment procedure for drinking water reservoirs in Thuringia, including extreme value statistics and reservoir-specific evaluation methods
+- Setup, calibrated, and validated hydrological rainfall-runoff models using TALSIM-NG for catchments Ziegenrück/Plothenbach and Neuer Teich
+- Compared and evaluated simulation outputs across four modelling approaches: TALSIM-NG, J2000, LUTZ and KOSTRA-REWANUS
+- Developed Python scripts for automated hydrological data processing and reporting
+- Conducted GIS-based forest area analysis: classified 242 land parcels by water protection zone status (WSZ I–III), administrative responsibility and area size using BORIS-TH, InfoLika and Thüringen Viewer
+- Acquired hydrological geodata via WFS/WMS (ATKIS, ALKIS, KOSTRA-REWANUS, Thüringen Viewer) services as well as from the internal database of TFW
+- Participated in quarterly meetings, site visits, and hydrometry measurements
 
 > **Reference:** *"zur vollsten Zufriedenheit"* – Thomas Dirkes, CEO, TFW (March 2026)
 
@@ -26,11 +27,12 @@ keywords:
 **Center for Environmental & Geographic Information Services (CEGIS) | Dhaka, Bangladesh**
 *Ministry of Water Resources, Government of Bangladesh*
 
-- Geospatial data analysis, GIS mapping, and remote sensing for 15+ development projects (FAO, World Bank, BWDB, and others)
-- Conducted Feasibility Studies, Environmental & Social Impact Assessments (EIA/ESIA), and Strategic Environmental Assessments (SEA)
-- UAV data collection and processing (certified practitioner, Nov 2023)
-- Stakeholder consultations: Focus Group Discussions (FGDs), Key Informant Interviews (KIIs), Stakeholder Consultation Meetings (SCMs)
-- Technical report writing and documentation for international clients
+- Responsible for the disaster risk assessment and climate risk analysis components across 15+ development project commissioned by World Bank, FAO and Bangladesh Water Development Board (BWDB)
+- Conducted geospatial data analysis and GIS mapping to assess hazard exposure, vulnerability and climate-related risks for proposed infrastructure and development projects
+- Assisted in preparing feasibility studies, Environmental and Social Impact Assessments (ESIA) and Strategic Environmental Assessments (SEA) including spatial analysis, map production and technical reporting
+- Facilitated stakeholder consultations (Focus Group Discussions, Key Informant Interviews, Stakeholder Consultation Meetings) and conducted quantitative data analysis to support project decision-making
+- Operated UAV systems for field geodata acquisition; completed professional training in UAV data collection (Nov 2023) and ESIA procedures (Apr 2023)
+
 
 > **Reference:** *"Experience Certificate"* - issued by the Director (Admin),CEGIS (September 2024)
 ---
@@ -38,7 +40,9 @@ keywords:
 ### Research Assistant *(Feb 2021 – June 2021)*
 **Institute of Water and Flood Management (IWFM), BUET | Dhaka, Bangladesh**
 
-- Field data collection, data processing, and reporting under the IDRC-funded project *"Evaluation of Adaptation Trials in GBM-Delta (ADCF)"*
+- Conducted field data collection in 19 coastal districts
+- Assisted in questionnaire development, geodata processing and scientific reporting within the IDRC-funded research project "Evaluation of Adaptation Trials in the Ganges-Brahmaputra-Meghna (GBM) Delta" (ADCF programme)
+
 
 > **Reference:** *"Experience Certificate"* - issued by Anisul Haque, IWFM, BUET (December 2021)
 ---
@@ -46,7 +50,9 @@ keywords:
 ### Research Assistant *(July 2019 – Oct 2022)*
 **Department of Emergency Management, PSTU | Patuakhali, Bangladesh**
 
-- Research support in disaster risk management, water resources, and climate adaptation
-- GIS and remote sensing applications in flood risk, climate adaptation, and disaster management research
+- Supported the development of research methodologies in disaster risk management and water resources management
+- Evaluated and graded undergraduate thesis submissions and academic assignments
+- Assisted in the preparation of lecture materials and course content for undergraduate modules
+
 
 > **Reference:** *"Experience Certificate"* - issued by the Chairman Dept. of ERM, PSTU (October 2022)
