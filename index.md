@@ -17,7 +17,7 @@ description: Portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at 
 
 
 
-**MSc in Integrated Water Resources Management**,
+**MSc in Water Resources Management**,
 [Technische Hochschule Köln](https://www.th-koeln.de/studium/integrated-water-resources-management-master_6996.php)
 
 📍Köln, Germany  &nbsp;|   &nbsp;
