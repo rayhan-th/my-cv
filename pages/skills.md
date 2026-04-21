@@ -33,7 +33,7 @@ keywords:
 
 ### Programming & Data Processing
 
-| Language | Python (strong in data analysis and visualiyations), R (basic) |
+| Language | Python (strong in data analysis and visualizations), R (basic) |
 |---|---|
 | Python | Data analysis and processing in Jupyter Notebook |
 | Geodata| PyQGIS, PostgreSQL |
