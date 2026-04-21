@@ -11,34 +11,34 @@ keywords:
 
 ### GIS & Geodata
 
-| Tool / Skill | Details |
+| Software | QGIS, ArcGIS-Pro, ArcGIS Online |
 |---|---|
-| QGIS, ArcGIS Pro | Geodata processing, analysis & visualization |
-| Spatial Analysis | Catchment delineation, DEM processing, Soil data processing, LU/LC data processing, Land use planning |
+| Geoinformation system | Advance knowledge in GIS operations including geospatial data processing, analysis & visualization |
+| Geodata | Experince in WFS/WMS Data Services, ATKIS, ALKIS, KOSTRA-REWANUS, BORIS-TH, Thüringen Viewer, PostgreSQL |
 | Remote Sensing | Satellite image analysis, digital photogrammetry, image processing |
+| Hydro-GIS| Hydrological Process Analysis, Watershed Delineation, Terrain Analysis, Hydrological Response Unit Generation (webHRU and QGIS) |
 | UAV | Data collection and processing  |
 
 ---
 
 ### Hydrological Modelling
 
-| Tool / Skill | Details |
+| Software | TALSIM-NG, HEC-HMS, HBV-Light |
 |---|---|
-| TALSIM-NG | Rainfall-runoff modelling, reservoir analysis, flood forecasting, calibration |
-| HEC-HMS | Hydrological modelling, flood analysis |
-| Model Validation | Cross-comparison with J2000, LUTZ, KOSTRA-REWANUS |
+| Modeling | Rainfall-runoff modelling, reservoir operations, design storm simulations, flood forecasting, model calibration, validation |
+| Multi-model| Cross-comparison with J2000, LUTZ, KOSTRA-REWANUS |
 | Hydrometry | Field measurements, data collection |
 
 ---
 
 ### Programming & Data Processing
 
-| Tool / Skill | Details |
+| Language | Python (strong in data analysis and visualiyations), R (basic) |
 |---|---|
 | Python | Data analysis and processing in Jupyter Notebook |
-| Geodata (Python) | GeoPandas, Rasterio, Shapely, PySQL |
+| Geodata| PyQGIS, PostgreSQL |
 | Automation | Scripting for hydrological data workflows |
-| Excel | Data analysis and reporting |
+
 
 ---
 
@@ -57,5 +57,5 @@ keywords:
 | Language | Level |
 |---|---|
 | German | B2.1 – actively improving (target: C1) |
-| English | C1 – IELTS |
-| Bengali | Native |
+| English | C1 (CEFR level) – IELTS |
+| Bangla | Native |
