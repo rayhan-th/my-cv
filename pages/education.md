@@ -10,16 +10,16 @@ keywords:
 #### M.Sc. in Integrated Water Resources Management *(Sept 2023 – ongoing)*
 **Technische Hochschule Köln | Köln, Germany**
 
-- GPA: 1.7 (after 90 ECTS) | Master thesis ongoing
+- Master thesis ongoing
 - DAAD Scholarship recipient 2023–2025
-- Key modules: GIS & Remote Sensing · Flood Management · Water System Analysis · Water Resources Management · Hydraulic Infrastructure . Project Management · Environmental Monitoring . Urban Water Management
+- Focus: GIS & Remote Sensing · Flood Management · Water System Analysis · Water Resources Management · Hydraulic Infrastructure . Project Management · Environmental Monitoring . Urban Water Management
 
 ---
 
 #### M.S. in Disaster Science and Emergency Management *(2022)*
 **Patuakhali Science and Technology University | Dunki, Patuakhali, Bangladesh**
 
-- GPA: 3.98 / 4.00 | **With distinction**
+- Passed | **With distinction**
 - Focus: Research Methodology · GIS & Remote Sensing . Climate Change Adaptation
 
 ***Thesis: Exploring the Role of Climate Change Adaptation Practices in People’s (Non)-Migration Decision: A Case from Coastal Area of Bangladesh***
@@ -32,7 +32,7 @@ Despite confronting severe climatic risks, many people prefer to remain in clima
 #### B.Sc. in Disaster Management (Hons.) *(2019)*
 **Patuakhali Science and Technology University | Patuakhali, Bangladesh**
 
-- CGPA: 3.83 / 4.00 | **With distinction**
+- Passed | **With distinction**
 - Focus: GIS & Remote Sensing · Digital Photogrammetry & Image Processing · Spatial Database and Analysis · Cartography and Digital Mapping · Disaster Risk Reduction · Environmental Science . Climatology . Flood Management
 
 ***Thesis: Chemical modification of biochar’s functional groups enhances phosphate and arsenite adsorption***
