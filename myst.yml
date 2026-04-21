@@ -45,8 +45,8 @@ project:
 
 site:
   options:
-    logo: logo2.png
-    logo_dark: logo2.png
+    logo: fav3.png
+    logo_dark: fav3.png
     favicon: fav3.ico
     style: custom.css
     folders: true
