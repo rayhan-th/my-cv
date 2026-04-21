@@ -1,6 +1,6 @@
 ---
 title: Rayhan Ahmed
-subtitle: Hydrology & GIS Specialist | MSc 
+subtitle: Hydrology & GIS Specialist | M.Sc. 
 description: Portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at TH Köln.
 ---
 
@@ -17,12 +17,12 @@ description: Portfolio website of Rayhan Ahmed, Hydrology and GIS Specialist at 
 
 
 
-**MSc Integrated Water Resources Management**,
+**MSc in Integrated Water Resources Management**,
 [TH Köln](https://www.th-koeln.de/studium/integrated-water-resources-management-master_6996.php)
 
-📍Cologne, Germany &nbsp;|&nbsp;📞 +491786957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
+📍Deutzer Ring 5, Köln, Germany &nbsp;|&nbsp;📞 +491786957128 &nbsp;|&nbsp; ✉ [rayhan.thkoeln@gmail.com](mailto:rayhan.thkoeln@gmail.com)
 
-**Interested in:** Geographic Information Syestem (GIS) . Hydrological Modelling · Early Warning System . Flood Risk Analysis · AI in GIS and Hydroinformatics . Nature-Based Solution . Water Resources Management · Climate Change and Disaster Risk Reduction
+**Interested in:** Geographic Information Syestem (GIS) . Hydrological Modelling · Early Warning System . Flood Risk Analysis · AI in GIS and Hydroinformatics . Nature-Based Solution . Water Resources Management · Climate Change Adaptation and Disaster Risk Reduction
 
 [LinkedIn](https://www.linkedin.com/in/rayhan95ahmed) |
 [ResearchGate](https://www.researchgate.net/profile/Rayhan-Ahmed-4?ev=hdr_xprf) |
