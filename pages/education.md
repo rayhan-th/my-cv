@@ -7,7 +7,7 @@ keywords:
  - Thesis
 ---
 
-#### M.Sc. in Integrated Water Resources Management *(Sept 2023 – ongoing)*
+#### MSc in Integrated Water Resources Management *(Sept 2023 – ongoing)*
 **Technische Hochschule Köln | Köln, Germany**
 
 - Master thesis ongoing
@@ -16,7 +16,7 @@ keywords:
 
 ---
 
-#### M.S. in Disaster Science and Emergency Management *(2022)*
+#### MS in Disaster Science and Emergency Management *(2022)*
 **Patuakhali Science and Technology University | Dunki, Patuakhali, Bangladesh**
 
 - Passed | **With distinction**
@@ -29,7 +29,7 @@ Despite confronting severe climatic risks, many people prefer to remain in clima
 
 ---
 
-#### B.Sc. in Disaster Management (Hons.) *(2019)*
+#### BSc in Disaster Management (Hons.) *(2019)*
 **Patuakhali Science and Technology University | Patuakhali, Bangladesh**
 
 - Passed | **With distinction**
