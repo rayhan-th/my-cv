@@ -10,9 +10,11 @@ keywords:
 #### MSc in Integrated Water Resources Management *(Sept 2023 – ongoing)*
 **Technische Hochschule Köln | Köln, Germany**
 
-- Master thesis ongoing
+- Master thesis (expected to be defended by June 2026)
 - DAAD Scholarship recipient 2023–2025
 - Focus: GIS & Remote Sensing · Flood Management · Water System Analysis · Water Resources Management · Hydraulic Infrastructure . Project Management · Environmental Monitoring . Urban Water Management
+
+***Thesis: Data- and model-based assessment of reservoir operations in hydrological systems analysis: A multi-model evaluation using TALSIM-NG in a highly managed catchment in Thuringia, central Germany***
 
 ---
 
